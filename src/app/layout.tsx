@@ -2,6 +2,7 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Roboto } from "next/font/google";
 import { Layout, FixedPlugin } from "@/components";
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 const roboto = Roboto({
   subsets: ["latin"],
